@@ -1,10 +1,10 @@
-jest.dontMock('../public/components/CheckboxWithLabel');
+jest.dontMock('../public/components/CheckboxWithLabel.jsx');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import TestUtils from 'react-addons-test-utils';
 
-const CheckboxWithLabel = require('../public/components/CheckboxWithLabel');
+const CheckboxWithLabel = require('../public/components/CheckboxWithLabel.jsx');
 
 describe('CheckboxWithLabel', function() {
 
